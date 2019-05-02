@@ -1,0 +1,25 @@
+{
+  "name": "tsc-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "_moduleAliases": {
+    "@domain": "dist/domain",
+    "@infra": "dist/infra",
+    "@util": "dist/util",
+    "@common": "dist/common",
+    "@interfaces": "dist/interfaces",
+    "@utils": "dist/utils",
+    "@api": "dist/api",
+    "@root": "dist"
+  },
+  "dependencies": {
+    "@types/node": "^11.13.8",
+    "module-alias": "^2.2.0"
+  }
+}
